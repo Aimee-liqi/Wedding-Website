@@ -1,0 +1,294 @@
+@charset "utf-8";
+/* CSS Document */
+/*header*/
+.top{
+	height:85px;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	box-shadow:0px 3px 1px rgba(255,204,204,0.7);/*(17,17,17,0.7)*/
+	background-color:white;
+	z-index:2147483647;//这里改了
+}
+#logo{
+	float:left;
+}
+.ah{
+	font-size:25px;
+	font-family:"Courier New", Courier, monospace;
+	position:fixed;
+	left:13%;
+	top:1%;
+	text-shadow:5px 5px 15px #FF6666;
+	z-index:100;
+}
+.ah a
+{
+	color:rgba(170,170,170,0.8);
+}
+.ah a:hover
+{
+	color:pink;
+}
+.ah ul{
+	margin-bottom:10px;
+}
+.ah li{
+	padding:0px;
+	list-style:none;
+	text-decoration:none;
+	display:inline-block;
+	margin-right:5px;
+	margin-top:1px;
+}
+.ah a{
+	text-decoration:none;
+}
+#LR{
+	position:fixed;
+	display:inline-block;
+	top:5%;
+	right:2%;
+	
+}
+.btn
+{
+	font-family:"Courier New", Courier, monospace;
+	font-size:20px;
+	margin-right:10px;
+	background-color:pink;
+	padding: 10px 20px 8px 22px;
+    line-height: normal;
+    text-align: center;
+	vertical-align: middle;
+	border-radius: 5px;
+	text-decoration:none;
+}
+#LR a
+{
+	color:white;
+}
+#LR a:hover
+{
+	opacity:0.7;
+	color:BLACK;
+}
+#LR a:visted
+{
+	box-shadow:0px 10px 10px black inset;
+}
+body
+{
+	background:#f3f3f3;
+}
+
+/*body*/
+/*weclome*/
+#welcome
+{
+	position:relative;
+	height:470px;
+	width:100%;
+	background:url(../images/Weddingclass/classcover.jpg);
+	margin-top:7%;
+}
+.welcomeInfo
+{
+	position:absolute;
+	background:rgba(255,255,255,0.5);
+	width:900px;
+	height:350px;
+	top:50px;
+	left:15%;
+	border-radius:20px;
+}
+.text
+{
+	position:relative;
+	width:850px;
+	height:300px;
+	margin-top:20px;
+	margin-left:20px;
+	border:double 6px #000000;
+	border-radius:15px;
+	text-align:center;	
+}
+.text h2
+{
+	font-weight:400;
+	font-family:"Times New Roman", Times, serif;
+	font-size:30px;
+}
+.text h2 span
+{
+	font-weight:600;
+	font-family:Arenski;
+	font-size:50px;
+	text-shadow:3px 3px 7px #333;
+	color:#F44336;
+}
+.text p
+{
+	font-family:"Times New Roman", Times, serif;
+	line-height:35px;
+	font-style:italic;
+	font-size:24px;
+	font-weight:400;
+	color:#333;
+}
+
+/*class*/
+.course{
+    background:#f3f3f3;
+    overflow:hidden
+}
+
+.heading 
+{
+	margin-top:25px;
+	text-align:center;
+}
+.heading  h2
+{
+	font-family:Arenski;
+}
+.course-grids
+{
+	margin-left:7%;
+	position: relative;
+	overflow:hidden
+}
+.course-content{
+	width:27%;
+	height:400px;
+	float:left;
+	display:inline;
+	padding:27px;
+	margin-bottom:10px;
+}
+.course-img a{
+    background-size: cover;
+    height: 230px;
+    display: block;
+	text-decoration:none;
+	overflow:hidden;
+	border: 1px solid #ddd;
+
+}
+.course-img img
+{
+	-webkit-transition: .3s;
+    transition: .3s;
+	
+}
+.course-img img:hover {
+	  -webkit-transform: scale(1.25);
+	  transform: scale(1.25);
+
+	}
+.course-info
+{
+	font-family:"Times New Roman", Times, serif;
+	letter-spacing:1px;
+}
+.course-info h4 a{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+	text-decoration:none;
+}	
+.course-info h4 a:hover{
+	color:#F44336;
+}
+.course-info p{
+    color:#666;
+    font-size: 16px;
+    margin: 0;
+ }
+
+/*footer*/
+body{
+	margin:0px;
+	padding:0px;
+}
+html{
+	width:100%;
+}
+#whole p{
+	
+	text-align:center;
+	color:#000;
+}
+#connect
+{
+	font-family:"Segoe UI Light";
+	text-align:center;
+	margin-right:0px;
+	font-size:18px;
+	padding-top:10px;
+	padding-bottom:70px;
+	position:absolute;
+	left:290px;
+	top:90px;
+}
+#connect a
+{
+	text-decoration:none;
+	margin-right:60px;
+	color:#000;
+	border:dotted;
+	border-color:#F0FFF0;
+	border-radius:10px;
+}
+//这里增加了
+#connect a:hover
+{
+	color:#CDC1C5;
+	border-color:#F33;
+}
+#whole
+{
+	background-color:#EEE0E5;
+	left:0px;
+	right:0px;
+	margin-bottom:0px;
+	
+	margin-left:0;
+	margin-right:0;
+	width:100%;
+	text-align:center;
+	height:280px;
+	bottom:0;
+	position:relative;
+}
+#follow_us
+{
+	padding-top:20px;
+	opacity:0.5;
+	font-size:36px;
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+}
+#copyright
+{
+	margin-top:0;
+	margin-bottom:0;
+	padding:0px;
+	font-family:"Segoe UI Light";
+	position:absolute;
+	top:190px;
+	left:450px;
+}
+#thanks
+{
+	margin-top:0;
+	margin-bottom:0;
+	padding:0px;
+	font-family:"Segoe UI Light";
+	position:absolute;
+	top:220px;
+	left:565px;
+}
+

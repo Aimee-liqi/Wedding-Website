@@ -1,0 +1,497 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+/*header*/
+.top{
+	height:85px;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	box-shadow:0px 3px 1px rgba(255,204,204,0.7);/*(17,17,17,0.7)*/
+	background-color:white;
+	z-index:2147483647;//这里改了
+}
+#logo{
+	float:left;
+}
+.ah{
+	font-size:25px;
+	font-family:"Courier New", Courier, monospace;
+	position:fixed;
+	left:13%;
+	top:1%;
+	text-shadow:5px 5px 15px #FF6666;
+	z-index:100;
+}
+.ah a
+{
+	color:rgba(170,170,170,0.8);
+}
+.ah a:hover
+{
+	color:pink;
+}
+.ah ul{
+	margin-bottom:10px;
+}
+.ah li{
+	padding:0px;
+	list-style:none;
+	text-decoration:none;
+	display:inline-block;
+	margin-right:5px;
+	margin-top:1px;
+}
+.ah a{
+	text-decoration:none;
+}
+#LR{
+	position:fixed;
+	display:inline-block;
+	top:5%;
+	right:2%;
+	
+}
+.btn
+{
+	font-family:"Courier New", Courier, monospace;
+	font-size:20px;
+	margin-right:10px;
+	background-color:pink;
+	padding: 10px 20px 8px 22px;
+    line-height: normal;
+    text-align: center;
+	vertical-align: middle;
+	border-radius: 5px;
+	text-decoration:none;
+}
+#LR a
+{
+	color:white;
+}
+#LR a:hover
+{
+	opacity:0.7;
+	color:BLACK;
+}
+#LR a:visted
+{
+	box-shadow:0px 10px 10px black inset;
+}
+
+
+#img12
+{
+	position:relative;
+	height:736px;
+	width:1348px;
+	top:0px;
+	left:0px;
+}
+
+body
+{
+
+	height:100%;
+	width:100%;
+	background-repeat:round;
+	background-attachment:fixed;
+	background-color:#EEE0E5;
+	
+}
+.button
+{
+	position:relative;
+	margin-left:30px;
+	
+	background:#F99;
+	color:white;
+	width:80px;
+	height:30px;
+	border-radius:6px;	
+}
+.button:hover
+{
+	color:#3CF;
+}
+label
+{
+	font-family:Segoe Print;
+	margin-bottom:10px;
+}
+input
+{
+	font-family:Segoe Print;
+	margin-bottom:10px;
+}
+.w
+{
+	font-family:Segoe Print;
+}
+#table
+{
+	position:absolute;
+	top:20%;
+	left:40%;
+}
+#b1
+{
+	font-size:26px;
+	text-shadow:2px 2px 4px #CC99FF;
+	color:#C9C;
+	position: absolute;
+	top: 78%;
+	animation: bili1 15s;
+	left: -250px;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+}
+@keyframes bili1
+{
+	0%{transform: translate(0px,15px);}
+	100%{transform: translate(1200px,15px);}
+}
+#b2{
+	color:#C66;
+	font-size:20px;
+	text-shadow:3px 3px 3px #3399FF;
+	animation: bili2 10s;
+	position: absolute;
+	top: 67%;
+	left: -250px;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+}
+@keyframes bili2
+{
+	0%{transform: translate(0px,35px);}
+	100%{transform: translate(1200px,35px);}
+}
+#b3
+{
+	color:#F99;
+	position: absolute;
+	text-shadow:2px 2px 2px #CC3333;
+	font-size:26px;
+	top:64%;
+	left: -250px;
+	animation: bili3 8s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+}
+@keyframes bili3
+{
+	0%{transform: translate(0px,70px);}
+	100%{transform: translate(1200px,70px);}
+}
+#b4
+{
+	color:#F60;
+	position: absolute;
+	text-shadow:2px 2px 1px #FF3300;
+	font-size:20px;
+	top: 57%;
+	left: -250px;
+	animation: bili4 11s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+}
+@keyframes bili4
+{
+	0%{transform: translate(0px,30px);}
+	100%{transform: translate(1200px,30px);}
+}
+#b5
+{
+	color:#099;
+	text-shadow:2px 2px 1px #33FFFF;
+	font-size:20px;
+	position: absolute;
+	top:64%;
+	left: -250px;
+	animation-iteration-count:infinite;
+	animation: bili5 10s;
+	animation-timing-function: linear;
+}
+@keyframes bili5{
+	0%{transform: translate(0px,15px);}
+	100%{transform: translate(1200px,15px);}
+}
+
+#t1
+{
+	color:#c9f;
+	position:absolute;
+	top:18%;
+	left:22%;
+	font-family:Segoe Print;
+	font-size:36px;
+	text-shadow:2px 2px 2px #6699FF;
+	animation-iteration-count:infinite;
+	animation: kira 10s;
+	animation-timing-function:linear；
+}
+#t2
+{
+	color:#c9f;
+	position:absolute;
+	top:22%;
+	left:68%;
+	font-family:Segoe Print;
+	font-size:36px;
+	text-shadow:2px 2px 2px #6699FF;
+	animation-iteration-count:infinite;
+	animation: kira 10s;
+	animation-timing-function:linear；
+}
+#t3
+{
+	color:#c9f;
+	position:absolute;
+	top:45%;
+	left:65%;
+	font-family:Segoe Print;
+	font-size:36px;
+	text-shadow:2px 2px 2px #6699FF;
+	animation-iteration-count:infinite;
+	animation: kira 10s;
+	animation-timing-function:linear；
+}
+#t4
+{
+	color:#C9F;
+	position:absolute;
+	top:48%;
+	left:10%;
+	font-family:Segoe Print;
+	font-size:36px;
+	text-shadow:2px 2px 2px #6699ff;
+	animation-iteration-count:infinite;
+	animation: kira 10s;
+	animation-timing-function:linear；
+}
+@keyframes kira
+{
+	0% {color:#6C9;}
+	40%{color:#F99;}
+	80%{color:#9C6;}
+	100%{color:#c9f;}
+}
+
+    #windmill{ 
+		width:50px; 
+		height:50px;  
+		position:absolute; 
+		top:27%;
+		left:11%;
+		animation: windmill-ani 2s; 
+		animation-iteration-count:infinite;
+		animation-timing-function: linear; 
+		}
+    #center{
+		width:20px;
+		height:20px;
+		margin: 15px;
+		background:yellow;
+		border-radius:10px
+		position:absolute;
+		z-index:20;
+		}
+
+    .leaves{
+		width:80px;
+		height:4px; 
+		position:absolute;
+		left:20px;
+		top:25px;
+        border-width:0 0 100px 50px;
+        border-style: none solid solid solid ;
+        border-color: transparent pink;
+	}
+
+    #l2
+	{
+        transform-origin:0 0;
+        transform: rotate(270deg);
+        border-color:transparent #FFF;
+    }
+
+    #l3{
+        transform-origin:0 0;
+        transform: rotate(180deg);
+
+        border-color:transparent pink;
+    }
+
+    #l4{
+        transform-origin:0 0;
+        transform: rotate(90deg);
+
+        border-color:transparent #FFF; 
+    }
+
+
+    @keyframes windmill-ani
+    {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+    }
+
+/*footer*/
+body{
+	margin:0px;
+	padding:0px;
+}
+html{
+	width:100%;
+}
+#whole p{
+	
+	text-align:center;
+	color:#000;
+}
+#connect
+{
+	font-family:"Segoe UI Light";
+	text-align:center;
+	margin-right:0px;
+	font-size:18px;
+	padding-top:10px;
+	padding-bottom:70px;
+	position:absolute;
+	left:290px;
+	top:90px;
+}
+#connect a
+{
+	text-decoration:none;
+	margin-right:60px;
+	color:#000;
+	border:dotted;
+	border-color:#F0FFF0;
+	border-radius:10px;
+}
+//这里增加了
+#connect a:hover
+{
+	color:#CDC1C5;
+	border-color:#F33;
+}
+#whole
+{
+	background-color:#EEE0E5;
+	left:0px;
+	right:0px;
+	margin-bottom:0px;
+	margin-top:100px;
+	margin-left:0;
+	margin-right:0;
+	width:100%;
+	text-align:center;
+	height:280px;
+	bottom:0;
+	position:relative;
+}
+#follow_us
+{
+	padding-top:20px;
+	opacity:0.5;
+	font-size:36px;
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+}
+#copyright
+{
+	margin-top:0;
+	margin-bottom:0;
+	padding:0px;
+	font-family:"Segoe UI Light";
+	position:absolute;
+	top:190px;
+	left:450px;
+}
+#thanks
+{
+	margin-top:0;
+	margin-bottom:0;
+	padding:0px;
+	font-family:"Segoe UI Light";
+	position:absolute;
+	top:220px;
+	left:565px;
+}
+/*gotop*/
+.cbbfixed 
+{
+	position: fixed;
+	right: 10px;
+	transition: bottom ease .3s;
+	bottom: -85px;
+	z-index: 3;
+	cursor:pointer;
+}
+.cbbfixed .cbbtn 
+{
+	width: 40px;
+	height: 40px;
+	display: block;
+	background-color: #FCC;
+}
+.cbbfixed .gotop 
+{
+	transition: background-color ease .3s;
+	margin-top: 1px;
+}
+.cbbfixed .gotop .up-icon
+{
+	float:left;
+	margin:14px 0 0 9px;
+	width:23px;
+	height:12px;
+	background: url(../images/side-icon02.png);
+}
+.cbbfixed .gotop:hover 
+{
+	background-color:#FC9;
+}
+.cbbfixed .cweixin 
+{
+	background: #dadbdd;;
+}
+.cbbfixed .cweixin div 
+{
+	background: url(../images/erwei.png);
+	width: 194px;
+	height: 199px;
+	position: absolute;
+	left: -194px;
+	top: -115px;
+	opacity: 0;
+	transform: scale(0);
+	-webkit-transform: scale(0);
+	transform-origin: 100% 70%;
+	-webkit-transform-origin: 100% 70%;
+	transition: transform ease .3s,opacity ease .3s;
+	-webkit-transition: all ease .3s;
+	display:none\0;
+	*display:none;
+}
+.cbbfixed .cweixin:hover div 
+{
+	display: block;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	opacity:1;
+	*display:block;
+}
+.cbbfixed .cweixin .weixin-icon
+{
+	float: left;
+	margin:12px 0 0 11px;
+	width:18px;
+	height: 18px;
+	 background: url(../images/side-icon01.png);
+}

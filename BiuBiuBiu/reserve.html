@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="CSS/reserve.css">
+<title>Reserve</title>
+<script type="text/javascript" src="JS/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="JS/reserve.js"></script>
+<link href="CSS/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="JS/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#water").mouseenter(function(){
+		$("#text").hide();
+	});
+	$("#water").mouseleave(function(){
+		$("#text").show(2000);
+	});
+});
+</script>
+</head>
+
+<body>
+<script type="text/javascript" src="JS/backtop.js"></script>
+<!--header-->
+<div class="top">
+<img src="images/logo.gif" width="140" height="84" id="logo"/>
+    <div class="ah">
+    <ul>
+    <li>
+    <a href="home.html">Home</a>
+    </li>
+    <li>
+    <a href="plan.html">Plan</a>
+    </li>
+    <li>
+    <a href="Gallery.html">Gallery</a>
+    </li>
+    <li>
+    <a href="reserve.html">Reserve</a>
+    </li>
+    <li>
+    <a href="Weddingclass.html">Wedding Class</a>
+    </li>
+    <li>
+    <a href="Team.html">Team</a>
+    </li>
+    <li>
+    <a href="about.html">About</a>
+    </li>
+    </ul>
+    </div>
+    <div id="LR">
+    <a href="login.html" class="btn">Login</a>
+    <a href="register.html" class="btn">Register</a>
+    </div>
+</div>
+<div id="reserve">
+    <form onsubmit="reserve()">
+    <label for="style">1.Which do you prefer,Chinese style or western style?</label><br/>
+    <input type="radio" name="style" onclick="getValue1(this)">Chinese
+    <input type="radio" name="style" onclick="getValue1(this)">Western
+    <br/>
+    
+    <label for="position">2.Which place do you want to hold a wedding?</label><br/>
+    <input type="radio" name="position" onclick="getValue2(this)">Indoor
+    <input type="radio" name="position" onclick="getValue2(this)">Outdoor
+    <br/>
+    
+    <label for="money">3.How many budget do you want to put in the wedding?</label><br/>
+    <input type="radio" name="money" onclick="getValue3(this)">Under 3000
+    <input type="radio" name="money" onclick="getValue3(this)">3000-1000
+    <input type="radio" name="money" onclick="getValue3(this)">1000-28000
+    <input type="radio" name="money" onclick="getValue3(this)">Above 28000
+    <br/>
+    
+    <label for="number">4.How many guests do you want to invite?</label><br/>
+    <input type="radio" name="number" onclick="getValue4(this)">Under 50
+    <input type="radio" name="number" onclick="getValue4(this)">50-100
+    <input type="radio" name="number" onclick="getValue4(this)">100-150
+    <input type="radio" name="number" onclick="getValue4(this)">150-200
+    <input type="radio" name="number" onclick="getValue4(this)">Above 200
+    <br/>
+    
+    <label for="time">5.When do you want to hold your wedding?</label><br/>
+    <input type="date" name="time" id="time">
+    <br/>
+    
+    <label for="important">6.What is the most important things that in your wedding ceremony?</label><br/>
+    <textarea row="5" cols="16" ID="important"></textarea>
+    <br/>
+    
+    <label for="date">7.When do you want to come to our company?</label><br/>
+    <input type="date" name="date" id="date" required>
+    <br/>
+    
+    <label for="tel">8.Please leave your telphone number and email address:</label><br/>
+    TEL:<input type="tel" name="tel" id="tel"required><br/>
+    E-mail:<input type="email" name="email" id="email" required>
+    <br/>
+    <input type="submit" value="Submit" id="final1">
+    <input type="reset" value="Reset" id="final2">
+    </form>
+</div>
+<div id="text">	
+    <p>I love you,<br/>
+Not for what you are,<br/>
+But for what I am<br/>
+When I am with you</p>
+</div>
+<img id="flow" src="images/11.jpg" height="400px" width="500px">
+
+<img id="water" src="images/11.png" height="186px" width="313px">
+<!--footer-->
+
+<div id="whole">
+<p id="follow_us">FOLLOW US</p>
+<div id="connect">
+<a href="home.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'" >&nbsp;&nbsp;Wedding Planning&nbsp;&nbsp;</a>
+<a href="feedback.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Feedback&nbsp;&nbsp;</a>
+<a href="about.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a>
+<a href="contact.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Contact Us&nbsp;&nbsp;</a>
+<a href="Team.html" onmouseover="this.style.color='#FF8C69" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Team&nbsp;&nbsp;</a>
+</div>
+
+<p id="copyright">Copyright © 2017 Biubiubiu letitbeme.com All Rights Reserved
+</p>
+<p id="thanks">THANKS FOR SCROLLING THIS FAR!</p>
+</div>
+</body>
+</html>
+

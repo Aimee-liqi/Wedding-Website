@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Team</title>
+<link href="CSS/teamInfo.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="JS/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="JS/team.js"></script>
+<link href="CSS/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="JS/jquery.js"></script>
+<script>
+ $(document).ready(function(e) {
+    $(".tab").mouseover(function(e){
+		$(".tab").removeClass("active");
+		$(".content").removeClass("show");
+		$(this).addClass("active");
+		$($(this).attr("href")).addClass("show");
+	});
+	
+	 $(".content img").hover(function(e) {
+        this.src=this.src.replace("_show","_info");
+    },
+	function(e){
+        this.src=this.src.replace("_info","_show");
+	}
+	);
+});
+</script>
+
+
+</head>
+
+
+<body>
+<script type="text/javascript" src="JS/backtop.js"></script>
+<!--header-->
+<div class="top">
+<img src="images/logo.gif" width="140" height="84" id="logo"/>
+    <div class="ah">
+    <ul>
+    <li>
+    <a href="home.html">Home</a>
+    </li>
+    <li>
+    <a href="plan.html">Plan</a>
+    </li>
+    <li>
+    <a href="Gallery.html">Gallery</a>
+    </li>
+    <li>
+    <a href="reserve.html">Reserve</a>
+    </li>
+    <li>
+    <a href="Weddingclass.html">Wedding Class</a>
+    </li>
+    <li>
+    <a href="Team.html">Team</a>
+    </li>
+    <li>
+    <a href="about.html">About</a>
+    </li>
+    </ul>
+    </div>
+    <div id="LR">
+    <a href="login.html" class="btn">Login</a>
+    <a href="register.html" class="btn">Register</a>
+    </div>
+</div>
+
+
+<div id="teamtitle">
+   <img src="images/team/Teamtitle_2.jpg" style="height:450px;width:100%"/>
+	<div class="teamIntro">
+    <h2>Our <span>Team</span>
+    <p>We use our gold medal team and professional service to  produce a pefect wedding for you.According to your preference you can choice a team design a wedding for you.</p>
+    </div>
+</div>
+
+
+<div id="teamshow">
+
+			<div class="head">
+                       <img src="images/Weddingclass/line.png"/>
+                        <h2>Our Team</h2>            
+			</div>
+            
+      <div class="mainteam">
+      
+            <nav id="teamlinks">
+                <a href="#first" class="tab active">Wedding plenner</a>
+                <a href="#second" class="tab">Floral designer</a>
+                <a href="#third" class="tab">Wedding makeup artist</a>
+                <a href="#fourth" class="tab">Wedding Performer</a>
+             </nav>   
+                
+                <div id="first" class="content show">
+				<img src="images/team/Team-first_show.jpg" style="width:900px;height:450px;" />
+				 </div>
+
+				<div id="second" class="content">
+				<img src="images/team/team-scoend_show.jpg" style="width:900px;height:450px;" />
+				</div>
+                
+                <div id="third" class="content">
+                <img src="images/team/team-third_show.jpg" style="width:900px;height:450px;" />
+                </div>
+                
+                <div id="fourth" class="content">
+                <img src="images/team/team-fourth_show.jpg" style="width:900px;height:450px;" />
+                </div>
+    
+			
+        </div>
+        
+        <br/>
+       		 <div class="head">
+                       <img src="images/Weddingclass/line.png"/>
+                        <h2>Recommend team numbers</h2>            
+			</div>
+            
+             
+  <div class="team-grids">
+   <div class="demo">           
+            <div class="team-numbers">
+                    <div class="number-img">
+                        <img src="images/team/teamOne2.jpg" style="height:150px;"/>
+                    </div>
+                    <div class="number-Info">
+                    <h4>G-dragon <span>wedding planner</span></h4>
+                    <p>Be expert in designing  the overseas wedding,usually undertake large- foreign projects for company as well as honeymoon wedding designs, won the trust of customers.</p>
+                    </div>  
+                    <div class="num-link">
+                    <button id="but1" value="but1" class="button" title="Reserve Him/her,plan your unique wedding." type="button" onclick="openDialog(this)">Reserve</button>
+					 <a href="Gallery.html" >See the more wedding designs</a>
+                    </div>
+              </div>
+                
+                <div class="team-numbers team-numbers1">
+                        <div class="number-img">
+                            <img src="images/team/teamOne3.jpg" style="height:150px;"/>
+                        </div>
+                        <div class="number-Info">
+                        <h4>Gao Yuanyuan<span> banquet designer</span></h4>
+                        <p>Peofessonal banquet desiger,graduated from CAFA.Have designed hundreds of wedding banquet.Good at traditional Chinese wedding scene disign.</p>
+                        </div>
+                         <div class="num-link">
+                    <button id="but2"  value="but2"  class="button" title="Reserve Him/her,plan your unique wedding." type="button" onclick="openDialog(this)">Reserve</button>
+                    <a href="Gallery.html" >See the more wedding designs</a>
+                    </div>
+            </div>
+            
+   
+    		<div class="team-numbers team-numbers1">
+                		<div class="number-img"> 
+                			<img src="images/team/teamOne4.jpg" style="height:150px;"/>
+                		</div>
+                        <div class="number-Info">
+                        <h4>Guo Biting<span> bridal makeup artist</span></h4>
+                        <p>Dressed the bride lovingly pathetic.According to the facial features to design a styling which the most suitable for bride's temperament. Striking features and characteristics of people</p>
+                        </div>
+                        <div class="num-link">
+                    <button id="but3"  value="but3" class="button" title="Reserve Him/her,plan your unique wedding." type="button" onclick="openDialog(this)">Reserve</button>
+                    <a href="Gallery.html" >See the more wedding designs</a>
+                    </div>
+            </div>
+
+		<div class="demo-bg"></div>		
+          <div class="demo-txt">
+                    <button id="btn" onClick="closeDialog()"></button>
+                    <p class="txt">Input your phone number,reserve hin/her,talk about your wedding plan:)</p>
+                    <form  onsubmit="addreserve()">
+                    <input type="tel" placeholder="Please enter your  phone number " id="number"  maxlength="11" required/>
+					<button type="submit" id="confrimbut"  class="button" >Confirm</button>
+                    </form>
+            </div>
+  </div><!--demo-->
+   <script>
+	var demobg = document.querySelector(".demo-bg");
+	var demotxt = document.querySelector(".demo-txt");
+	
+	function openDialog(obj) 
+	{
+		demotxt.style.display = "block";
+		demobg.style.display = "block";
+		var value=obj.id;
+		sessionStorage.setItem("value_but",value);
+	}
+	
+	function closeDialog()
+	{
+		demotxt.style.display = "none";
+		demobg.style.display = "none";
+	}
+</script>
+
+            
+              <br/>
+       		 <div class="head">
+                       <img src="images/Weddingclass/line.png"/>
+                        <h2>Post-designing team</h2>            
+			</div>
+            
+            <div class="team-numbers team-numbers2">
+                		<div class="number-img"> 
+                			<img src="images/team/teamtwo1.jpg" style="height:300px;"/>
+                		</div>
+                        <div class="number-Info">
+                        <h4>Park Hae Jin<span> video editor</span></h4>
+                        <p>Be familiar with all kinds of video editing softwares.Using the profissional skills to record every happiness moments.Create perfect and unquie memories for every newly-married. </p>
+                        </div>
+                        <div class="num-link">
+                    <a href=" reserve.html" title="Input your information,we will plan your unique wedding." >Reserve</a>
+                    <a href="Gallery.html" >See the more wedding designs</a>
+                    </div>
+            </div>
+            
+            <div class="team-numbers team-numbers2">
+                		<div class="number-img"> 
+                			<img src="images/team/teamtwo8.jpg" style="height:300px;"/>
+                		</div>
+                        <div class="number-Info">
+                        <h4>Yang yang<span> photographer</span></h4>
+                        <p>Following shoot is the witness of happiness,which makes the wedding details more beautiful,outlines a beautiful composition
+to accepts sweet wishes from friends and onfidantes.</p>
+                        </div>
+                        <div class="num-link">
+                    <a href=" reserve.html" title="Input your information,we will plan your unique wedding." >Reserve</a>
+                    <a href="Gallery.html" >See the more wedding designs</a>
+                    </div>
+            </div>
+  </div>
+   
+</div>
+
+
+<!--footer-->
+
+<div id="whole">
+<p id="follow_us">FOLLOW US</p>
+<div id="connect">
+<a href="home.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'" >&nbsp;&nbsp;Wedding Planning&nbsp;&nbsp;</a>
+<a href="feedback.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Feedback&nbsp;&nbsp;</a>
+<a href="about.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a>
+<a href="contact.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Contact Us&nbsp;&nbsp;</a>
+<a href="Team.html" onmouseover="this.style.color='#FF8C69" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Team&nbsp;&nbsp;</a>
+</div>
+
+<p id="copyright">Copyright © 2017 Biubiubiu letitbeme.com All Rights Reserved
+</p>
+<p id="thanks">THANKS FOR SCROLLING THIS FAR!</p>
+</div>
+</body>
+</html>
+

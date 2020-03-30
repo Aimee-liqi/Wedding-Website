@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Register</title>
+<script type="text/javascript" src="js/addUser.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<link href="CSS/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="JS/jquery.js"></script>
+
+<link rel="stylesheet" href="CSS/register.css" type="text/css">
+</head>
+
+<body>
+<script type="text/javascript" src="JS/backtop.js"></script>
+
+<!--header-->
+<div class="top">
+<img src="images/logo.gif" width="140" height="84" id="logo"/>
+    <div class="ah">
+    <ul>
+    <li>
+    <a href="home.html">Home</a>
+    </li>
+    <li>
+    <a href="plan.html">Plan</a>
+    </li>
+    <li>
+    <a href="Gallery.html">Gallery</a>
+    </li>
+    <li>
+    <a href="reserve.html">Reserve</a>
+    </li>
+    <li>
+    <a href="Weddingclass.html">Wedding Class</a>
+    </li>
+    <li>
+    <a href="Team.html">Team</a>
+    </li>
+    <li>
+    <a href="about.html">About</a>
+    </li>
+    </ul>
+    </div>
+    <div id="LR">
+    <a href="login.html" class="btn">Login</a>
+    <a href="register.html" class="btn">Register</a>
+    </div>
+</div>
+
+
+<div id="bg">
+<img src="images/12.jpg" id="img12">
+<div id="bg1">
+<form id="table" onSubmit="register()">
+<label for="f">First Name</label>
+<input type="text" id="f" maxlength="10" onBlur="checkF(this)" required><br/>
+<label for="l">Last Name</label>
+<input type="text" id="l" maxlength="10" onBlur="checkL(this)" required><br/>
+<label for="sex">Gender</label>
+<input type="radio" name="sex" value="Male" onclick="getValue(this)"><span class="w">Male</span>
+<input type="radio" name="sex" value="Female" onclick="getValue(this)"><span class="w">Female</span><br/>
+<label for="bir">Birthday</label>
+<input type="date" id="bir"><br/>
+<label for="uid">User ID(Email Address)</label>
+<input type="email" name="uid" id="uid" required><br/>
+<label for="tel">Telephone Number</label> 
+<input type="tel" id="tel" onBlur="checkTel(this)"><br/>
+<label for="psw">Password</label>
+<input type="password" name="psw" id="psw"  required><br/>
+<label for="psw2">Password Again</label>
+<input type="password" id="psw2" onBlur="checkPassword(this)" required><br/>
+
+<input type="submit" value="Submit" class="button">
+<input type="reset" value="Reset" class="button">
+</form>
+</div>
+</div>
+	<p id="b1">Welcome to our Webiste!</p>
+	<p id="b2">Please register and be a member of us!</p>
+	<p id="b3">We are your best choice!</p>
+	<p id="b4">Say I Love You</p>
+	<p id="b5">Marry me?</p>
+    <p id="t1">FLIPPED</p>
+    <P id="t2">Let it be me</P>
+    <p id="t3">This is our story</p>
+    <p id="t4">Give me your heart</p>
+</div>
+    <div id="windmill">
+            <div class="leaves" id="l1"></div>
+            <div class="leaves" id="l2"></div>
+            <div class="leaves" id="l3"></div>
+            <div class="leaves" id="l4"></div>
+            <div id="center"></div>
+			
+        </div>
+        </body>
+<!--footer-->
+
+<div id="whole">
+<p id="follow_us">FOLLOW US</p>
+<div id="connect">
+<a href="home.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'" >&nbsp;&nbsp;Wedding Planning&nbsp;&nbsp;</a>
+<a href="feedback.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Feedback&nbsp;&nbsp;</a>
+<a href="about.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a>
+<a href="contact.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Contact Us&nbsp;&nbsp;</a>
+<a href="Team.html" onmouseover="this.style.color='#FF8C69" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Team&nbsp;&nbsp;</a>
+</div>
+
+<p id="copyright">Copyright © 2017 Biubiubiu letitbeme.com All Rights Reserved
+</p>
+<p id="thanks">THANKS FOR SCROLLING THIS FAR!</p>
+</div>
+</body>
+</html>
+

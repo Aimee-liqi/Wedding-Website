@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="CSS/home.css" type="text/css">
+<script type="text/javascript" src="JS/jquery.colorbox.js">
+</script>
+<script type="text/javascript" src="JS/jquery-3.2.1.js">
+</script>
+<script type="text/javascript" src="JS/home.js">
+</script>
+<link href="CSS/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="JS/jquery.js"></script>
+
+</head>
+
+<body >
+
+<!--header-->
+<!--BGM-->
+<audio autoplay="autoplay" loop="true" controls="controls" id="music" hidden="hidden" src="Music/My Forever.mp3" >
+</audio> 
+<script>
+window.addEventListener("keydown",move,false);
+var myAudio=document.getElementById("music");
+function move(e)
+{
+	if(e.altKey&&e.keyCode==38)
+	{
+		if(myAudio.paused)
+		{
+			myAudio.play();
+		}
+		else
+		{
+			myAudio.pause();
+		}
+	}
+}
+</script>
+
+<script type="text/javascript" src="JS/backtop.js"></script>
+
+<div class="top">
+<img src="images/logo.gif" width="140" height="84" id="logo"/>
+    <div class="ah">
+    <ul>
+    <li>
+    <a href="home.html">Home</a>
+    </li>
+    <li>
+    <a href="plan.html">Plan</a>
+    </li>
+    <li>
+    <a href="Gallery.html">Gallery</a>
+    </li>
+    <li>
+    <a href="reserve.html">Reserve</a>
+    </li>
+    <li>
+    <a href="Weddingclass.html">Wedding Class</a>
+    </li>
+    <li>
+    <a href="Team.html">Team</a>
+    </li>
+    <li>
+    <a href="about.html">About</a>
+    </li>
+    </ul>
+    </div>
+    <div id="LR">
+    <a href="login.html" class="btn">Login</a>
+    <a href="register.html" class="btn">Register</a>
+    </div>
+</div>
+
+
+<!--body-->
+<br />
+<br />
+<br />
+<br />
+
+<div id="title">
+	<p>|——			FLIPPED     WEDDING     WEBSITE		——|</p>
+</div>
+<div id="detail1">
+	<p>Carpenter created a classic, moved forever</p>
+</div>
+<div id="line">
+	<p>__________________________________</p>
+</div>
+<!--Reference will be the image -->
+<div id="bg" style="background:url(images/flower.png); border:double;">
+<marquee scrollamount="0" scrolldelay="1" behavior="alternate"  loop="-1" hspace="4%"  vspace="5%" class="scroll" onmouseover="this.stop()" onmouseout="this.start()">
+
+<img id="pic1" class="pics" src="images/And I love you so/8.jpg" height="400px" width="600px" alt="" onclick="and_I_Love_You_So()"   title="And I love you so" onmouseover="change11()" onmouseout="changeBack11();"  />
+<img id="pic2" class="pics" src="images/Be with you/Place5.jpg" height="400px" width="600px" alt="" onclick="be_With_You()" title="Be with you"  onmouseover="change12()" onmouseout="changeBack12();"/>
+<img id="pic3" class="pics"  src="images/Mariage D'amour/12.jpg" height="400px" width="600px" onclick="mariage_Damour()" title="Mariage D'amour" onmouseover="change13()" onmouseout="changeBack13();"/>
+<img id="pic4" class="pics" src="images/Beautiful in red/8.jpg" height="400px" width="600px" alt="" onclick="beautiful_In_Red()"title="Beautiful in red"  onmouseover="change14()" onmouseout="changeBack14();" />
+<img id="pic5" class="pics" src="images/starlight/6.jpg" height="400px" width="600px" alt="" onclick="starlight()" title="starlight" onmouseover="change15()" onmouseout="changeBack15();" />
+<img id="pic6" class="pics" src="images/You are beautiful/2.jpg" height="400px" width="600px" alt="" onclick="you_Are_Beautiful()" title="You are beautiful"  onmouseover="change16()" onmouseout="changeBack16();"/>
+</marquee>
+<div id="slider1">
+<a href="#pic1" ><img id="pink1" src="images/point.jpg"  onmouseover="changeBlue1()" onmouseout="changePink1()"/></a>
+
+<a href="#pic3" ><img id="pink2" src="images/point.jpg"  onmouseover="changeBlue2()" onmouseout="changePink2()"/></a>
+
+<a href="#pic5" ><img id="pink3" src="images/point.jpg"  onmouseover="changeBlue3()" onmouseout="changePink3()"/></a>
+
+</div>
+
+</div>
+<br />
+<br />
+<img src="images/line.png" width="100%"/>
+<br />
+<div id="title1">
+	<p>|——			FEATURED STORIES		——|</p>
+</div>
+<div id="detail1">
+	<p>Carpenter created a classic, moved forever</p>
+</div>
+<div id="line">
+	<p>__________________________________</p>
+</div><br />
+
+<div class="body1">
+
+<div id="blank" style="background:url(images/blank_pic.jpg); border:double; width:1100px; height:800px; margin-left:10%; margin-bottom:10%;; border-color:#F99;">
+
+<div id="blank1" style="background:url(images/blank_pic.jpg); " >
+<img id="pi1" src="images/And I love you so/1.jpg" width="280px" height="150px" onmouseover="pic_1()" onmouseout="pic_1()"/>
+<img id="pi2" src="images/And I love you so/2.jpg" width="90px" height="60px" onmouseover="pic_2()" onmouseout="pic_1()"/>
+<img id="pi3" src="images/And I love you so/3.jpg" width="90px" height="60px"  onmouseover="pic_3()" onmouseout="pic_1()"/>
+<img id="pi4" src="images/And I love you so/4.jpg" width="90px" height="60px"  onmouseover="pic_4()" onmouseout="pic_1()"/>
+<a href="And I love you so.html" id="blank_a1" title="And I love you so much.">And I love you so much.</a>
+<img id="house1" src="images/house.png" width="25px" height="25px" />
+<p>HOTEL:<br />Htinns </p>
+<button id="obtain1" onclick="openDialog(this)">obtain quotes</button>
+</div>
+
+<div id="blank2" style="background:url(images/blank_pic.jpg); " >
+<img id="withyou1" src="images/Be with you/People.jpg" width="280px" height="150px" onmouseover="withyou_1()" onmouseout="withyou_1()"/>
+<img id="withyou2" src="images/Be with you/Place1.jpg" width="90px" height="60px" onmouseover="withyou_2()" onmouseout="withyou_1()"/>
+<img id="withyou3" src="images/Be with you/Place2.jpg" width="90px" height="60px"  onmouseover="withyou_3()" onmouseout="withyou_1()"/>
+<img id="withyou4" src="images/Be with you/Place3.jpg" width="90px" height="60px"  onmouseover="withyou_4()" onmouseout="withyou_1()"/>
+<a href="Be with you.html" id="blank_a2">I wanna be with you.</a>
+<img id="house2" src="images/house.png" width="25px" height="25px" />
+<p>HOTEL:<br />Homeinn</p>
+<button id="obtain2" onclick="openDialog(this)">obtain quotes</button>
+</div>
+
+<div id="blank3" style="background:url(images/blank_pic.jpg); " >
+<img id="mariage1" src="images/Mariage D'amour/2.png" width="280px" height="150px" onmouseover="mariage_1()" onmouseout="mariage_1()"/>
+<img id="mariage2" src="images/Mariage D'amour/3.jpg" width="90px" height="60px" onmouseover="mariage_2()" onmouseout="mariage_1()"/>
+<img id="mariage3" src="images/Mariage D'amour/9.jpg" width="90px" height="60px"  onmouseover="mariage_3()" onmouseout="mariage_1()"/>
+<img id="mariage4" src="images/Mariage D'amour/12.jpg" width="90px" height="60px"  onmouseover="mariage_4()" onmouseout="mariage_1()"/>
+<a href="Mariage D'amour.html" id="blank_a3">Mariage D'amour.</a>
+<img id="house3" src="images/house.png" width="25px" height="25px" />
+<p>HOTEL:<br />Newton<br />Hotel</p>
+<button id="obtain3" onclick="openDialog(this)">obtain quotes</button>
+</div>
+
+<div id="blank4" style="background:url(images/blank_pic.jpg); " >
+<img id="beautiful1" src="images/Beautiful in red/1.jpg" width="280px" height="150px" onmouseover="beautiful_1()" onmouseout="beautiful_1()"/>
+<img id="beautiful2" src="images/Beautiful in red/2.jpg" width="90px" height="60px" onmouseover="beautiful_2()" onmouseout="beautiful_1()"/>
+<img id="beautiful3" src="images/Beautiful in red/5.jpg" width="90px" height="60px"  onmouseover="beautiful_3()" onmouseout="beautiful_1()"/>
+<img id="beautiful4" src="images/Beautiful in red/6.jpg" width="90px" height="60px"  onmouseover="beautiful_4()" onmouseout="beautiful_1()"/>
+<a href="Beautiful in red.html" id="blank_a4">Beautiful in red.</a>
+<img id="house4" src="images/house.png" width="25px" height="25px" />
+<p>HOTEL:<br />Regent<br />Hotel</p>
+<button id="obtain4" onclick="openDialog(this)">obtain quotes</button>
+</div>
+
+<div id="blank5" style="background:url(images/blank_pic.jpg); " >
+<img id="starlight1" src="images/starlight/2.jpg" width="280px" height="150px" onmouseover="starlight_1()" onmouseout="starlight_1()"/>
+<img id="starlight2" src="images/starlight/3.jpg" width="90px" height="60px" onmouseover="starlight_2()" onmouseout="starlight_1()"/>
+<img id="starlight3" src="images/starlight/6.jpg" width="90px" height="60px"  onmouseover="starlight_3()" onmouseout="starlight_1()"/>
+<img id="starlight4" src="images/starlight/10.jpg" width="90px" height="60px"  onmouseover="starliht_4()" onmouseout="starlight_1()"/>
+<a href="starlight.html" id="blank_a5">Starlight.</a>
+<img id="house5" src="images/house.png" width="25px" height="25px" />
+<p>HOTEL:<br />Hilton<br />Hotel</p>
+<button id="obtain5" onclick="openDialog(this)">obtain quotes</button>
+</div>
+
+<div id="blank6" style="background:url(images/blank_pic.jpg); " >
+<img id="you1" src="images/You are beautiful/2.jpg" width="280px" height="150px" onmouseover="you_1()" onmouseout="you_1()"/>
+<img id="you2" src="images/You are beautiful/3.jpg" width="90px" height="60px" onmouseover="you_2()" onmouseout="you_1()"/>
+<img id="you3" src="images/You are beautiful/6.jpg" width="90px" height="60px"  onmouseover="you_3()" onmouseout="you_1()"/>
+<img id="you4" src="images/You are beautiful/8.jpg" width="90px" height="60px"  onmouseover="you_4()" onmouseout="you_1()"/>
+<a href="You are beautiful.html" id="blank_a5" title="You are beautiful.">You are beautiful.</a>
+<img id="house6" src="images/house.png" width="25px" height="25px" />
+<p>HOTEL:<br />Astir<br />Hotel</p>
+<button id="obtain6" onclick="openDialog(this)">obtain quotes</button>
+</div>
+</div>
+<div class='demo-bg'></div>
+<div class='demo-txt'>
+<button id="btn" onclick="closeDialog()" style="border-radius:10px; outline-style:none; opacity:0.5"><img src="images/close.png" height="28px" width="28px" style="border-radius:10px;"></button>
+<form name="quotes" id="quotes"  method="post">
+<h5> Obtain Quotes</h5>
+<h6>LOVE YOU MORE EVERYDAY.</h6><label for="name" id="theme_name" ></label>
+<!--
+var name=document.getElementById("theme_name");
+name=document.write(<h6>Theme Name:</h6> +"name");-->
+<h4>Submit your information, view the introduction and offer, and get the latest offer.</h4>
+<input type="text" placeholder="Please enter your mobile phone number " id="number"  maxlength="11" required/>
+<button type="submit" id="butt1" onclick="obtainQuotes()">Confirm</button>
+</form>
+</div>
+</div>
+<script>
+var demobg = document.querySelector(".demo-bg");
+var demotxt = document.querySelector(".demo-txt");
+
+function openDialog() 
+{
+	demotxt.style.display="block";
+	demobg.style.display="block";
+
+}
+
+function closeDialog()
+{
+	demotxt.style.display = "none";
+	demobg.style.display = "none";
+}
+</script>
+<br />
+<br />
+<br />
+<br />
+<img src="images/line.png" width="100%" />
+<br />
+<div id="title1">
+	<p>|——			SERVICE TEAM		——|</p>
+</div>
+<div id="detail1">
+	<p>Carpenter created a classic, moved forever</p>
+</div>
+<div id="line">
+	<p>__________________________________</p>
+</div>
+<div id="team">
+
+<div id="but1">
+<!--
+<a href="" id="button1" type="button" onmouseover="change1()" onmouseout="changeTeam()">Wedding Hosting </a>
+<a href="" id="button2" type="button" onmouseover="change2()" onmouseout="changeTeam()">Banquet Set-up </a>
+<a href="" id="button3" type="button" onmouseover="change3()" onmouseout="changeTeam()">Wedding Video  </a>-->
+<button id="button4" type="button" onclick="openTeam()">&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp  More&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp </button>
+</div>
+<div id="team1" style="background:url(images/rings.jpg); border:double; margin-bottom:10%; border-color:#666;">
+<div  id="team_form" >
+<img src="images/team1.jpg" id="teamPic" height="450px" width="850px"  />
+<img id="iced_earth"  src="images/Iced_Earth1.jpg" height="450px" width="850px"/>
+<img id="F(x)" src="images/F(x).jpg"  height="450px" width="850px"/>
+<img id="victory" src="images/vedio_team.png" height="450px" width="850px" />
+</div>
+<div id="slider">
+<a href="#teamPic" ><img id="pink4" src="images/point.jpg"   onmouseover="changeBlue4()" onmouseout="changePink4()" /></a>
+<a href="#iced_earth" ><img id="pink5" src="images/point.jpg"  onmouseover="changeBlue5()" onmouseout="changePink5()"/></a>
+<a href="#F(x)" ><img id="pink6" src="images/point.jpg"  onmouseover="changeBlue6()" onmouseout="changePink6()"/></a>
+<a href="#victory" ><img id="pink7" src="images/point.jpg"  onmouseover="changeBlue7()" onmouseout="changePink7()"/></a>
+</div>
+</div>
+</div>
+<br />
+<br />
+<img src="images/line.png" width="100%" />
+<br />
+<div id="title1">
+	<p>|——			SERVICE FLOW		——|</p>
+</div>
+<div id="detail1">
+	<p>Carpenter created a classic, moved forever</p>
+</div>
+<div id="line">
+	<p>__________________________________</p>
+</div>
+
+<form name="service_flow">
+<div id="wap" style="overflow:hidden;position:relative;">
+	<div id="full_width_bg"  style="background:url(images/beauty.jpg) center; margin-top:0px; margin-left:10%; margin-right:10%; margin-bottom:10%; overflow:hidden;position:relative; height:700px; width:1100px; opacity:0.9; border:double; border-color:#666; ">
+            <div id="about">
+
+                	<div id="about_top">
+	                    <ul>
+                            <li><a class="about_top_a1" href="" title="Booking" onmouseover="booking()" onmouseout="this.stop()"><div id="num">01</div><div id="content1">Consultation Booking</div></a></li>
+                            <li><a class="about_top_a1" href="" title="Quotes" onmouseover="options()" onmouseout="this.stop()"><div id="num">02</div><div id="content1">&nbsp&nbsp Options &nbsp Quotation </div></a></li>
+                            <li><a class="about_top_a1" href="" title="Determine" onmouseover="determine()" onmouseout="this.stop()"><div id="num">03</div><div id="content1">Determine The Process</div></a></li>
+                            <li><a class="about_top_a1" href="" title="Select" onmouseover="selectTeam()" onmouseout="this.stop()"><div id="num">04</div><div id="content1"> &nbsp&nbsp&nbsp Select &nbsp&nbsp Team </div></a></li>
+                            <li><a class="about_top_a1" href="" title="Tracking " onmouseover="tracking()" onmouseout="this.stop()"><div id="num">05</div><div id="content1">Tracking Service </div></a></li>
+                        </ul>
+                    </div>
+                    <br />
+                    <br />
+                    <div id="about_bottom">
+					<!--<img src="images/conts.png" height="500px" width="1000px" id="conts"/>-->
+                         <div id="about_images">
+                    		<img id="img1" src="images/booking_pic.jpg" />
+                            <img id="img2" src="images/option_pic.jpg" />
+                            <img id="img3" src="images/determine_pic.jpg" />
+                            <img id="img4" src="images/select_pic.jpg" />
+                            <img id="img5" src="images/tracking_pic.jpg" />
+                   		 </div>
+        			</div>
+
+            </div>
+    </div>
+</div>
+</form>
+<br />
+<br />
+<img src="images/line.png" width="100%" />
+<br />
+<div id="title1">
+	<p>|——			WEDDING CLASS		——|</p>
+</div>
+<div id="detail1">
+	<p>Carpenter created a classic, moved forever</p>
+</div>
+<div id="line">
+	<p>__________________________________</p>
+</div>
+
+<br />
+<br />
+<div id="wclass" style="background:url(images/blank_pic.jpg); border:double; width:1100px; height:635px; margin-left:10%; margin-bottom:10px; border-color:#FC9; ">
+<div id="blak1" style="background:url(images/blank_pic.jpg); ">
+<a href="class-2.html" id="wed1" ><img src="images/wedding_class.png"  id="wedding1" /></a>
+</div>
+<div id="blak2" style="background:url(images/blank_pic.jpg); ">
+<a href="class-1.html" id="wed2" ><img src="images/wedding_class1.png"  id="wedding2" /></a>
+</div>
+<div id="blak3" style="background:url(images/blank_pic.jpg); ">
+<a href="class-3.html" id="wed3" ><img src="images/wedding_class2.png"  id="wedding3" /></a>
+</div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<!--footer-->
+
+<div id="whole">
+<p id="follow_us">FOLLOW US</p>
+<div id="connect">
+<a href="home.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'" >&nbsp;&nbsp;Wedding Planning&nbsp;&nbsp;</a>
+<a href="feedback.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Feedback&nbsp;&nbsp;</a>
+<a href="about.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a>
+<a href="contact.html" onmouseover="this.style.color='#FF8C69'" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Contact Us&nbsp;&nbsp;</a>
+<a href="Team.html" onmouseover="this.style.color='#FF8C69" onmouseout="this.style.color='#000'">&nbsp;&nbsp;Team&nbsp;&nbsp;</a>
+</div>
+
+<p id="copyright">Copyright © 2017 Biubiubiu letitbeme.com All Rights Reserved
+</p>
+<p id="thanks">THANKS FOR SCROLLING THIS FAR!</p>
+</div>
+</body>
+</html>
